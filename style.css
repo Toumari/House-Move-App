@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+ul {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.list-item {
+  margin: 2rem 0;
+}
+
+form {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.delete-btn {
+  margin-left: 1.5rem;
+  color: red;
+  background: #f3f3f3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submit-btn {
+  margin-top: 1rem;
+}
