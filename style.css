@@ -15,6 +15,7 @@ body {
 }
 
 .title {
+	margin-top: 2rem;
 	text-align: center;
 	font-size: 3rem;
 }
@@ -25,13 +26,36 @@ body {
 	font-size: 2rem;
 }
 
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
 ul {
 	padding-top: 2rem;
 	text-align: center;
+	font-size: 1.2rem;
+	font-weight: bold;
+	border-radius: 5px;
 }
 
 .list-item {
-	margin: 2rem 0;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0.8rem 0;
+	padding: 1.5rem;
+	width: 400px;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.75);
+	text-align: center;
+	background: white;
 }
 
 form {
@@ -45,6 +69,8 @@ form {
 }
 
 .delete-btn {
+	position: absolute;
+	right: 5%;
 	margin-left: 2.5rem;
 	color: red;
 	background: #f3f3f3;
