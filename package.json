@@ -1,0 +1,22 @@
+{
+  "name": "house_move_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toumari/house_move_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toumari/house_move_app/issues"
+  },
+  "homepage": "https://github.com/Toumari/house_move_app#readme",
+  "dependencies": {
+    "firebase": "^7.8.1"
+  }
+}

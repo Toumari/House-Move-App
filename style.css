@@ -1,47 +1,58 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #f3f3f3;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .title {
-  text-align: center;
-  font-size: 2rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.title-lead {
+	text-align: center;
+	margin-top: 0.5rem;
+	font-size: 2rem;
 }
 
 ul {
-  padding-top: 2rem;
-  text-align: center;
+	padding-top: 2rem;
+	text-align: center;
 }
 
 .list-item {
-  margin: 2rem 0;
+	margin: 2rem 0;
 }
 
 form {
-  padding-top: 4rem;
-  display: flex;
-  flex-direction: column;
-  width: 20vw;
-  justify-content: center;
-  align-content: center;
-  margin: auto;
+	padding-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	width: 20vw;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
 }
 
 .delete-btn {
-  margin-left: 1.5rem;
-  color: red;
-  background: #f3f3f3;
-  border-radius: 5px;
-  padding: 10px;
+	margin-left: 2.5rem;
+	color: red;
+	background: #f3f3f3;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: right;
 }
 
 .submit-btn {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
