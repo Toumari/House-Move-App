@@ -44,6 +44,16 @@ ul {
 	border-radius: 5px;
 }
 
+label {
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+}
+
+.name-input,
+.number-input {
+	padding: 0.4rem 0;
+}
+
 .list-item {
 	position: relative;
 	display: flex;
@@ -64,7 +74,7 @@ form {
 	padding-top: 4rem;
 	display: flex;
 	flex-direction: column;
-	width: 20vw;
+	width: 80vw;
 	justify-content: center;
 	align-content: center;
 	margin: auto;
