@@ -60,7 +60,7 @@ function readuserData() {
 
 function displayData(item) {
 	console.log('Display Data Called');
-	const html = `<li class="list-item" data-id="${item.id}">${item.item} <span class="price">£${item.price}</span><span class="delete-btn">X</span></li>`;
+	const html = `<li class="list-item" data-id="${item.id}"><span class="item-name">${item.item}</span><span class="price">£${item.price}</span><span class="delete-btn">X</span></li>`;
 	list.innerHTML += html;
 }
 

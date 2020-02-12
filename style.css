@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-	max-width: 350px;
+	max-width: 80vw;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -37,7 +37,7 @@ body {
 
 .list {
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
@@ -56,6 +56,18 @@ label {
 	margin-top: 1.5rem;
 }
 
+.price {
+	color: green;
+	position: absolute;
+	right: 20%;
+}
+
+.item-name {
+	position: absolute;
+	left: 5%;
+	max-width: 100px;
+}
+
 .name-input,
 .number-input {
 	padding: 0.4rem 0;
@@ -67,8 +79,11 @@ label {
 	justify-content: space-around;
 	align-items: center;
 	margin: 0.8rem 0;
-	padding: 1.5rem;
+	padding: 2.5rem;
+	margin: 1.5rem;
 	width: 400px;
+	font-size: 1rem;
+	flex-wrap: wrap;
 	border-radius: 5px;
 	-webkit-box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: 10px 10px 14px -10px rgba(0, 0, 0, 0.75);
@@ -84,7 +99,7 @@ form {
 	width: 80vw;
 	justify-content: center;
 	align-content: center;
-	margin: auto;
+	margin-bottom: 4rem;
 }
 
 .delete-btn {
@@ -96,8 +111,14 @@ form {
 	border-radius: 5px;
 	padding: 10px;
 	text-align: right;
+	cursor: pointer;
 }
 
 .submit-btn {
 	margin-top: 1rem;
+	padding: 1.5rem 1rem;
+	background-color: #333;
+	color: white;
+	font-size: 1.2rem;
+	width: 200px;
 }
