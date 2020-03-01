@@ -92,14 +92,8 @@ label {
 	background: white;
 }
 
-form {
-	padding-top: 4rem;
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	justify-content: center;
-	align-content: center;
-	margin-bottom: 4rem;
+input {
+	min-width: 40vw;
 }
 
 .delete-btn {
